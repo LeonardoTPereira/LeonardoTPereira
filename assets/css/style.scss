@@ -2,6 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
+kbd{
+ background-color: #303030;
+}
 
 h1 {
  color: #8034eb;
