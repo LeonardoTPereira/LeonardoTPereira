@@ -22,14 +22,13 @@ title: Leonardo Tortoro Pereira
 email: leonardop@usp.br
 description: >- # this means to ignore newlines until "baseurl:"
   PhD candidate and associate professor in Computer Sciences at ICMC-USP. Researching about Procedural Content Generation and other game-related applications
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: LeoPereiraPCG
 github_username:  LeonardoTPereira
 
 # Build settings
 theme: jekyll-theme-leap-day
-
+plugins:
+  - jekyll-feed
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
