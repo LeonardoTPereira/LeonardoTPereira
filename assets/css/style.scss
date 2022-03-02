@@ -4,6 +4,14 @@
 @import "{{ site.theme }}";
 kbd{
  background-color: #303030;
+ 
+ .button{
+  background-color: #8750e6;
+ }
+}
+
+#banner {
+ background: #4205ab
 }
 
 h1 {
