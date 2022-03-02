@@ -3,15 +3,14 @@
 
 @import "{{ site.theme }}";
 kbd{
- background-color: #303030;
- 
- .button{
-  background-color: #8750e6;
- }
+ background-color: #ba2b2b;
 }
 
 #banner {
- background: #4205ab
+ background: #4205ab;
+ .button{
+  background-color: #8750e6;
+ }
 }
 
 h1 {
