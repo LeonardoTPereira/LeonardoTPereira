@@ -52,15 +52,42 @@ th {
 }
 
 header{
-	background: #0d275c;
+	background: #5d2bb3;
+	background-image: url('me.png');
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	background-position: 1% 20%;
 }
 
 h1, h2, h3, h4, h5, h6 {
- color: #8750e6;
+ color: #a774fc;
 }
 
 section {
 	background: #212121;
 	border: 1px solid #1c102e;
 	box-shadow: 0px 1px 2px rgba(0,0,0,.09), inset 0px 0px 2px 2px rgba(28, 16, 46,.5), inset 0 0 5px 5px rgba(28, 16, 46,.4);
+}
+
+nav{
+	ul{
+		li{
+			&.tag-h1 {
+				a {
+					color: #dfb6f2;
+				}
+			}
+		}
+		a{
+			color: #b28bc4;
+			
+			&:hover {color: #e4a8ff;}
+		}
+	}
+}
+
+footer {
+}
+
+.wrapper{
 }
