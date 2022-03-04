@@ -102,31 +102,32 @@ The lists below summarize the topics I've learned and practiced throughout my ti
   - Component-Oriented Programming
   - Writing scientific papers
   - Modeling scientific experiments
-  - Collecting, processing, analysing and creating scientific data visualization
+  - Collecting, processing, analysing and creating visualizations for scientific data
   - Solving problems
   - Modeling problems into applications
   - Working with teams
   - Leading teams
+  - Game Development
+  - Game Programming
+  - The scientific method
   - Refactoring and restructuring OOP projects
   - Clean Coding
   - Communicating
   - Teaching
   - Organizing events
   - Speaking in public
-  - Game Development
-  - Game Design
-  - The scientific method
 - I have some knowledge and experience on:
   - Software Architecture
   - DevOps
   - Design Patterns
   - Machine Learning
+  - Pixel Art
+  - Game Design
+  - Gamefication
+  - Serious Games
   - Digital image processing
   - Data visualization
   - Autonomous robots programming
-  - Gamefication
-  - Serious Games
-  - Pixel Art
   - Recommender systems
   - Human-Computer Interface
   - Acessibility in computational systems
@@ -135,9 +136,9 @@ The lists below summarize the topics I've learned and practiced throughout my ti
 
 ### Languages
 
-- I am a native Portuguese speaker &#127463;&#127479;
-- I am fluent in English &#127468;&#127463; and Spanish &#127466;&#127480;
-- I have basic understanding of Italian &#127470;&#127481;, French &#127467;&#127479; and Japanese &#127471;&#127477;
+- I am a native Portuguese speaker <img src="assets/css/brazilian.png" style="inline" width=16px/>
+- I am fluent in English <img src="assets/css/english.png" style="inline" width=16px/> and Spanish <img src="assets/css/spanish.png" style="inline" width=16px/>
+- I have basic understanding of Italian <img src="assets/css/italian.png" style="inline" width=16px/>, French <img src="assets/css/french.png" style="inline" width=16px/> and Japanese <img src="assets/css/japanese.png" style="inline" width=16px/>
 
 ## Teaching and University Stuff
 
