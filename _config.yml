@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   PhD candidate and associate professor in Computer Sciences at ICMC-USP. Researching about Procedural Content Generation and other game-related applications
 twitter_username: LeoPereiraPCG
 github_username:  LeonardoTPereira
+google_analytics: G-G2HTYVH71T
 
 # Build settings
 theme: jekyll-theme-leap-day

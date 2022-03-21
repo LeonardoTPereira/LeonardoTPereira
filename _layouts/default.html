@@ -12,7 +12,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
     {% include head-custom.html %}
   </head>
   <body>
@@ -50,9 +49,25 @@
       </section>
       <footer>
         {% if site.github.is_project_page %}
-          <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <script>
+          function getEmail()
+          {
+            var copyText = document.getElementById("myEmail").innerText;
+            navigator.clipboard.writeText(copyText);
+            var x = document.getElementById("emailSnackbar");
+            x.className = "show";
+            setTimeout(function(){ x.className = x.className.replace("show", ""); }, 1500);
+          }
+        </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <a href="mailto:leonardop@usp.br" target="_blank" id="myEmail">leonardop@usp.br</a>
+          <button class="darkbutton" onclick="getEmail()"><i class="fa fa-copy"></i></button><br><br>
+          <div id="emailSnackbar">Email copied to clipboard</div>
+          <a href="https://twitter.com/LeoPereiraPCG?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @LeoPereiraPCG</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br><br>
+          <script src="https://apis.google.com/js/platform.js"></script>
+          <div class="g-ytsubscribe" data-channelid="UCNMpEzTJMzFjUA4kAygAAdQ" data-layout="full" data-count="hidden"></div>        
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
+        <p><small>Theme adapted from <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
       </footer>
     </div>
   </body>
